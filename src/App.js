@@ -1,22 +1,23 @@
 import logo from './logo.svg';
 import './App.css';
-
+// import Component from './components/Function';
+// import Greet from './components/Greet';
+// import StateEx from './components/StateEx'
+// import Conditions from './components/Conditions';
+// import MountingEx from './components/MountingEx'
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>HELLO WORLD !! </h1>
+        {/* <Greet name="sunny"/><Greet name="lakshmi"/>
+        
+        <Component name="sai Lakshmi"/> */}
+{/* <StateEx /> */}
+{/* <Conditions /> */}
+{/* <MountingEx /> */}
+{/* <Component /> */}
       </header>
     </div>
   );
